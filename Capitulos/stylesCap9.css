@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* Duas colunas: conteúdo principal e barra lateral */
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+
+.header {
+  grid-column: span 2; /* Cabeçalho ocupa as duas colunas */
+  background-color: lightgray;
+}
+
+.main {
+  background-color: lightblue;
+}
+
+.sidebar {
+  background-color: lightgreen;
+}
+
+.footer {
+  grid-column: span 2; /* Rodapé ocupa as duas colunas */
+  background-color: lightcoral;
+}
+
+/* Layout para telas menores que 768px */
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr; /* Transforma o layout em uma única coluna */
+  }
+
+  .header, .main, .sidebar, .footer {
+    grid-column: span 1; /* Cada elemento ocupa a largura total */
+  }
+}

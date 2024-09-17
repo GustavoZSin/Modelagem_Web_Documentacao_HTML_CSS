@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 400px;
+}
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}

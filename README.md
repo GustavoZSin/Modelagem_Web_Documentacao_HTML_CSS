@@ -25,8 +25,7 @@
       ```html
       <link rel="stylesheet" href="styles.css" />
       ```
-  - **Exemplo Completo:**
-    [capitulo1.html](./Capitulos/capitulo1.html)
+  - [**Exemplo Completo:**](./Capitulos/capitulo1.html)
 
 ## Capítulo 2: Selectores e Especificidade
 
@@ -71,14 +70,7 @@
       color: blue;
     }
     ```
-  - **Exemplo Prático:**
-    ```html
-    <h1 id="titulo">Este título ficará vermelho</h1>
-    <p class="texto">Este parágrafo tem estilo de classe aplicada.</p>
-    <div>
-      <p>Texto dentro de um div, ficará em cinza.</p>
-    </div>
-    ```
+  - [**Exemplo Completo:**](./Capitulos/capitulo2.html)
 
 ## Capítulo 3: Cores e Unidades
 
@@ -119,17 +111,7 @@
       background-color: rgba(0, 0, 255, 0.5); /* Azul com 50% de opacidade */
     }
     ```
-  - **Exemplo Prático:**
-    ```html
-    <div class="container">
-      <p style="color: hsl(120, 100%, 25%);">
-        Este parágrafo está verde escuro.
-      </p>
-    </div>
-    <div class="box" style="background-color: rgba(255, 0, 0, 0.5);">
-      Div com transparência
-    </div>
-    ```
+  - [**Exemplo Completo:**](./Capitulos/capitulo3.html)
 
 ## Capítulo 4: Tipografia e Fontes Customizadas
 
@@ -178,13 +160,7 @@
     }
     ```
 
-  - **Exemplo Prático:**
-    ```html
-    <h1 style="font-family: 'MinhaFonte', sans-serif;">
-      Título com Fonte Customizada
-    </h1>
-    <p style="font-family: Arial, sans-serif;">Texto com Arial.</p>
-    ```
+  - [**Exemplo Completo:**](./Capitulos/capitulo4.html)
 
 ## Capítulo 5: Box Model e Layout
 
@@ -218,14 +194,7 @@
       overflow: scroll; /* Mostra barra de rolagem se o conteúdo exceder */
     }
     ```
-  - **Exemplo Prático:**
-    ```html
-    <div class="box">Box Model em ação</div>
-    <div class="overflow-box">
-      Este texto está dentro de uma caixa com overflow, o conteúdo vai além da
-      altura definida.
-    </div>
-    ```
+  - [**Exemplo Completo:**](./Capitulos/capitulo5.html)
 
 ## Capítulo 6: Flexbox
 
@@ -260,19 +229,7 @@
       margin: 10px;
     }
     ```
-  - **Exemplo Prático:**
-    ```html
-    <div class="container">
-      <div>Item 1</div>
-      <div>Item 2</div>
-      <div>Item 3</div>
-    </div>
-    <div class="wrap">
-      <div class="item" style="background-color: lightblue;">Item 1</div>
-      <div class="item" style="background-color: lightcoral;">Item 2</div>
-      <div class="item" style="background-color: lightgreen;">Item 3</div>
-    </div>
-    ```
+  - [**Exemplo Completo:**](./Capitulos/capitulo6.html)
 
 ## Capítulo 7: Grid Layout
 
@@ -305,14 +262,7 @@
       }
     }
     ```
-  - **Exemplo Prático:**
-    ```html
-    <div class="container">
-      <div style="background-color: lightblue;">Cabeçalho</div>
-      <div style="background-color: lightcoral;">Conteúdo Principal</div>
-      <div style="background-color: lightgreen;">Rodapé</div>
-    </div>
-    ```
+  - [**Exemplo Completo:**](./Capitulos/capitulo7.html)
 
 ## Capítulo 8: Estilização Avançada e Animações
 
@@ -348,11 +298,7 @@
       animation: slideIn 1s ease-out;
     }
     ```
-  - **Exemplo Prático:**
-    ```html
-    <div class="box">Passe o mouse para mudar a cor.</div>
-    <div class="animado">Este texto desliza da esquerda para a direita.</div>
-    ```
+  - [**Exemplo Completo:**](./Capitulos/capitulo8.html)
 
 ## Capítulo 9: Responsividade e Media Queries
 
@@ -366,13 +312,7 @@
       }
     }
     ```
-  - **Exemplo Prático:**
-    ```html
-    <div class="container">
-      <div>Item 1</div>
-      <div>Item 2</div>
-    </div>
-    ```
+  - [**Exemplo Completo:**](./Capitulos/capitulo9.html)
 
 ## Capítulo 10: Boas Práticas e Otimização
 
@@ -405,8 +345,4 @@
         width: 100px;
       }
       ```
-  - **Exemplo Prático:**
-    ```html
-    <button class="button button-primary">Botão Primário</button>
-    <button class="button button-secondary">Botão Secundário</button>
-    ```
+  - [**Exemplo Completo:**](./Capitulos/capitulo10.html)

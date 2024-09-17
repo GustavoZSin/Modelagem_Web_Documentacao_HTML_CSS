@@ -1,0 +1,20 @@
+/* Evite repetição de código */
+.button {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.button-primary {
+  background-color: blue;
+  color: white;
+}
+.button-secondary {
+  background-color: gray;
+  color: black;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.item {
+  width: 100px;
+}

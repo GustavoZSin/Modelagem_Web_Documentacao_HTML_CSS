@@ -1,0 +1,15 @@
+.box {
+  width: 200px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 20px;
+}
+.box {
+  box-sizing: border-box; /* Inclui padding e borda no cálculo do tamanho */
+}
+.overflow-box {
+  width: 150px;
+  height: 75px;
+  border: 2px solid red;
+  overflow: scroll; /* Mostra barra de rolagem se o conteúdo exceder */
+}

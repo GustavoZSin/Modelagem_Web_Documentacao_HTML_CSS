@@ -26,24 +26,7 @@
       <link rel="stylesheet" href="styles.css" />
       ```
   - **Exemplo Completo:**
-    ```html
-    <!DOCTYPE html>
-    <html lang="pt-br">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="styles.css" />
-        <title>Exemplo de CSS</title>
-      </head>
-      <body>
-        <h1>Bem-vindo ao CSS</h1>
-        <p>Este é um exemplo de página com CSS.</p>
-        <button style="background-color: green; color: white;">
-          Botão Estilizado Inline
-        </button>
-      </body>
-    </html>
-    ```
+    [capitulo1.html](./Capitulos/capitulo1.html)
 
 ## Capítulo 2: Selectores e Especificidade
 

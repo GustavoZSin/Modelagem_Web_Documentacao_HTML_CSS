@@ -1,0 +1,29 @@
+#titulo {
+    color: red;
+} /* prevalece sobre h1 */
+h1 {
+  color: blue;
+}
+
+div p {
+    color: darkgray;
+  } /* Seleciona todos os <p> dentro de <div> */
+div > p {
+  font-weight: bold;
+} /* Seleciona <p> que são filhos diretos de <div> */
+
+input[type="text"] {
+  border: 1px solid black;
+}
+
+a[href^="https"] {
+  color: green;
+}
+
+.classe {
+  font-size: 16px;
+}
+
+#id {
+  background-color: yellow;
+}

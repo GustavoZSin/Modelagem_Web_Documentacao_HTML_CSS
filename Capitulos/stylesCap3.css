@@ -1,0 +1,29 @@
+.box {
+  background-color: rgba(0, 0, 255, 0.5); /* Azul com 50% de opacidade */
+}
+
+.box {
+  width: 80vw; /* 80% da largura da janela */
+  height: 50vh; /* 50% da altura da janela */
+}
+
+.container {
+  width: 50%;
+}
+
+.texto {
+  font-size: 2rem;
+}
+
+p {
+  color: #ff0000;
+} /* Hexadecimal */
+
+p {
+  color: rgb(255, 0, 0);
+} /* RGB */
+
+.gradient{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  color:white
+}
